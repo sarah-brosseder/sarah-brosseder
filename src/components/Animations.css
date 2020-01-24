@@ -9,7 +9,6 @@
   top: 6.8rem;
   width: 1.5rem;
   height: 1.5rem;
-  z-index: 2;
 }
 
 .arrow__sticky--gallery {
@@ -18,6 +17,7 @@
 }
 
 .text__sticky {
+  background-color: #fff5eb;
   font-family: 'Moderat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;

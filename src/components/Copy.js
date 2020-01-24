@@ -12,27 +12,11 @@ export default class Copy extends Component {
     window.removeEventListener('scroll', this.handleScroll)
   }
 
-  handleScroll() {
-    const copyMenuTitle = document.querySelector('#sticky-copy')
-    const heroMenuTitle = document.querySelector('#sticky-hero')
-    const copyTitle = document.querySelector('#copy-title')
-    const rect = copyTitle.getBoundingClientRect()
-    if (rect.y <= 83) {
-      heroMenuTitle.classList.add('is-animated-out')
-      window.setTimeout(() => {
-        heroMenuTitle.classList.remove('is-animated-out')
-        heroMenuTitle.classList.add('is-hidden')
-      }, 250)
-    } else {
-      heroMenuTitle.classList.remove('is-hidden')
-    }
-  }
-
   render () {
     return (
       <>
-        <span id="sticky-copy" className="text__sticky">Ansatz</span>
-        <div id="copy-title" className="copy__title-container">
+        <span className="text__sticky">Ansatz</span>
+        <div className="copy__title-container">
           <h1 className="copy__headline">Analysieren, recherchieren, planen, fragen – kritisch, aber hilfreich. Zuhören, diskutieren, skizzieren, träumen… Ich suche individuelle Ansätze, um Euch zu unterstützen und gemeinsam etwas zu verändern.</h1>
         </div>
         <span className="arrow__sticky"></span>

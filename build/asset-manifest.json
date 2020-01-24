@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sarah-brosseder/static/css/main.eb343f28.chunk.css",
-    "main.js": "/sarah-brosseder/static/js/main.b1cd43de.chunk.js",
-    "main.js.map": "/sarah-brosseder/static/js/main.b1cd43de.chunk.js.map",
+    "main.css": "/sarah-brosseder/static/css/main.30335f13.chunk.css",
+    "main.js": "/sarah-brosseder/static/js/main.f1239fb4.chunk.js",
+    "main.js.map": "/sarah-brosseder/static/js/main.f1239fb4.chunk.js.map",
     "runtime-main.js": "/sarah-brosseder/static/js/runtime-main.2917c56a.js",
     "runtime-main.js.map": "/sarah-brosseder/static/js/runtime-main.2917c56a.js.map",
     "static/js/2.02b610c7.chunk.js": "/sarah-brosseder/static/js/2.02b610c7.chunk.js",
     "static/js/2.02b610c7.chunk.js.map": "/sarah-brosseder/static/js/2.02b610c7.chunk.js.map",
     "index.html": "/sarah-brosseder/index.html",
-    "precache-manifest.4809aa93318bba6697f4a3e614bd4c11.js": "/sarah-brosseder/precache-manifest.4809aa93318bba6697f4a3e614bd4c11.js",
+    "precache-manifest.8538c5a9149ad2d659f439386f65eac6.js": "/sarah-brosseder/precache-manifest.8538c5a9149ad2d659f439386f65eac6.js",
     "service-worker.js": "/sarah-brosseder/service-worker.js",
-    "static/css/main.eb343f28.chunk.css.map": "/sarah-brosseder/static/css/main.eb343f28.chunk.css.map",
+    "static/css/main.30335f13.chunk.css.map": "/sarah-brosseder/static/css/main.30335f13.chunk.css.map",
     "static/js/2.02b610c7.chunk.js.LICENSE": "/sarah-brosseder/static/js/2.02b610c7.chunk.js.LICENSE",
     "static/media/index.css": "/sarah-brosseder/static/media/tiempos-text-web-regular.c5625f77.woff2",
     "static/media/landscape.jpg": "/sarah-brosseder/static/media/landscape.aa9f56a0.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.2917c56a.js",
     "static/js/2.02b610c7.chunk.js",
-    "static/css/main.eb343f28.chunk.css",
-    "static/js/main.b1cd43de.chunk.js"
+    "static/css/main.30335f13.chunk.css",
+    "static/js/main.f1239fb4.chunk.js"
   ]
 }

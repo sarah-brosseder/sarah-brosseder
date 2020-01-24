@@ -12,28 +12,12 @@ export default class Bullets extends Component {
     window.removeEventListener('scroll', this.handleScroll)
   }
 
-  handleScroll() {
-    const copyMenuTitle = document.querySelector('#sticky-copy')
-    const bulletsMenuTitle = document.querySelector('#sticky-bullets')
-    const bulletsTitle = document.querySelector('#bullets-title')
-    const rect = bulletsTitle.getBoundingClientRect()
-    if (rect.y <= 100) {
-      copyMenuTitle.classList.add('is-animated-out')
-      window.setTimeout(() => {
-        copyMenuTitle.classList.remove('is-animated-out')
-        copyMenuTitle.classList.add('is-hidden')
-      }, 250)
-    } else {
-      copyMenuTitle.classList.remove('is-hidden')
-    }
-  }
-
   render() {
     return (
       <>
         <div className="bullets__container">
-          <span id="sticky-bullets" className="text__sticky">Leistungsspektrum</span>
-          <div id="bullets-title" className="bullets__title-container">
+          <span className="text__sticky">Leistungsspektrum</span>
+          <div className="bullets__title-container">
             <h1 className="bullets__headline">
               Hier findest Du eine Auswahl der Themen, die wir gemeinsam in Workshop-Form oder prozessual bearbeiten können. Sprich mich gerne an, wenn das was Du suchst noch nicht dabei ist.
             </h1>
