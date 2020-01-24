@@ -18,6 +18,10 @@
   }
 }
 
+.copy__text-container__copy {
+  margin-top: 0;
+}
+
 @media screen and (min-width: 800px) {
   .copy__text-container {
     grid-row: 3;
