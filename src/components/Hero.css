@@ -1,6 +1,8 @@
 .hero {
-  display: flex;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 3.125rem 0 6.25rem 0;
   min-height: 100vh;
 }
@@ -9,11 +11,29 @@
   .hero {
     display: grid;
     grid-column-gap: 0.625rem;
-    grid-template-columns: repeat(12, 7.3%);
+    grid-template-columns: repeat(12, 7.48%);
   }
 }
 
 .hero__container {
-  grid-column-start: 2;
-  grid-column-end: 12;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+@media screen and (min-width: 800px) {
+  .hero__container {
+    grid-column-start: 2;
+    grid-column-end: 12;
+  }
+}
+
+.hero__container__headline {
+  margin-top: 3.125rem;
+}
+
+@media screen and (min-width: 800px) {
+  .hero__container__headline {
+    margin-top: 6.25rem;
+  }
 }
