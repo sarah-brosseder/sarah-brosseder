@@ -40,7 +40,7 @@ export default class App extends Component {
         </header>
         <Switch>
           <Route exact path={process.env.PUBLIC_URL + '/'}>
-            <Home />
+            <Home openContact={this.handleOpenContact} />
           </Route>
           <Route path={process.env.PUBLIC_URL + '/impressum'}>
             <Imprint />

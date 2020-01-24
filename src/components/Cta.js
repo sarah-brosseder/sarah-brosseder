@@ -1,12 +1,13 @@
 import React from 'react'
+import { CtaContent as content } from '../content/content'
 import './Cta.css'
 
 function Cta() {
   return (
     <>
-      <span id="cta-anchor" className="text__sticky">Beratung und kreative Strategie</span>
+      <span id="cta-anchor" className="text__sticky">{content.tagline}</span>
       <div className="cta__container">
-        <h1>Worüber wollen wir uns unterhalten?
+        <h1>{content.headline}
           <span className="is-hidden-on-mobile not-wrappable"> hallo@sarah-brosseder.de </span>
           <a href="mailto:hallo@sarah-broßeder.de"><span className="is-hidden-on-desktop text__underlined text__underlined--fine"> hallo@sarah-broßeder.de </span></a>
           oder

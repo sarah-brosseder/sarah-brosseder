@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { ImprintContent as content } from '../content/content'
 import './Imprint.css'
 
 export default class Imprint extends Component {
