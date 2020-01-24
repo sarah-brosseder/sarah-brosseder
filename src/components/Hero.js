@@ -50,7 +50,6 @@ export default class Hero extends Component {
   }
 
   showAboutTooltip() {
-    console.log(this.state)
     this.setState({
       tooltipAboutVisible: true,
     })
