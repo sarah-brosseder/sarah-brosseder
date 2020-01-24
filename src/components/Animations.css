@@ -1,3 +1,30 @@
+.animated-line {
+  background-color: #320096;
+  position: absolute;
+  bottom: 3.125rem;
+  left: 50%;
+  width: 2px;
+  height: 2rem;
+  animation-name: line;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  grid-row: 5;
+}
+
+@keyframes line {
+  0% {
+    transform: scaleY(0)
+  }
+  50% {
+    transform: scaleY(1)
+  }
+  100% {
+    transform: scaleY(0)
+  }
+}
+
 .arrow__sticky {
   background-image: url("../images/arrow-right.png");
   background-repeat: no-repeat;

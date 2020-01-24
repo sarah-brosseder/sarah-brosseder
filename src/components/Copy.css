@@ -1,3 +1,8 @@
+.copy {
+  position: relative;
+  padding-bottom: 8rem;
+}
+
 @media screen and (min-width: 800px) {
   .copy {
     display: grid;

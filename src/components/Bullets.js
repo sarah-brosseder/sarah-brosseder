@@ -45,6 +45,7 @@ export default class Bullets extends Component {
             </ul>
           </div>
         </div>
+        <span className="animated-line"></span>
       </>
     )
   }

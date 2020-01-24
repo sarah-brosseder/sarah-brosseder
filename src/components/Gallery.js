@@ -42,6 +42,7 @@ export default class Gallery extends Component {
             <img className="tile__image" src={landscape}/>
           </div>
         </div>
+        <span className="animated-line"></span>
       </>
     )
   }
