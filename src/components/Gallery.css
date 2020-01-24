@@ -3,6 +3,12 @@
   padding-bottom: 10rem;
 }
 
+@media screen and (min-width: 800px) {
+  .gallery {
+    margin-bottom: 6.25rem;
+  }
+}
+
 .tile {
   align-self: flex-start;
 }

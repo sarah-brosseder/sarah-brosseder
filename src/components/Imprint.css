@@ -7,7 +7,7 @@
   .imprint {
     display: grid;
     grid-column-gap: 0.625rem;
-    grid-template-columns: repeat(12, 7.48%);
+    grid-template-columns: repeat(12, 7.35%);
   }
 }
 
