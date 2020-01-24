@@ -41,3 +41,32 @@
     margin-top: 6.25rem;
   }
 }
+
+.hero__tooltip {
+  background-color: #FFD3D8;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 1rem;
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero__tooltip:hover {
+  color: #320096;
+}
+
+.hero__tooltip:before {
+  content: "";
+  display: block;
+  width: 0; 
+  height: 0; 
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-top: 0.5rem solid #FFD3D8;
+  position: absolute;
+  bottom: -0.45rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
