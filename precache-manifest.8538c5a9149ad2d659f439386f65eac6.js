@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09488e4fcace8c5b34f427296d8964e2",
+    "revision": "7da4a21c36236453829eed84aef43545",
     "url": "/sarah-brosseder/index.html"
   },
   {
-    "revision": "0f315068609125245ea8",
-    "url": "/sarah-brosseder/static/css/main.eb343f28.chunk.css"
+    "revision": "be5a611fcbd17bfcbc04",
+    "url": "/sarah-brosseder/static/css/main.30335f13.chunk.css"
   },
   {
     "revision": "caf0a18fc79b45e9ce23",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sarah-brosseder/static/js/2.02b610c7.chunk.js.LICENSE"
   },
   {
-    "revision": "0f315068609125245ea8",
-    "url": "/sarah-brosseder/static/js/main.b1cd43de.chunk.js"
+    "revision": "be5a611fcbd17bfcbc04",
+    "url": "/sarah-brosseder/static/js/main.f1239fb4.chunk.js"
   },
   {
     "revision": "8ff93c1ee6d0fbd8c0b0",
