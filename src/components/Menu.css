@@ -1,0 +1,73 @@
+.menu {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 900px) {
+  .menu {
+    align-items: center;
+    display: grid;
+    font-size: 16px;
+    grid-column-gap: 0.625rem;
+    justify-content: space-between;
+    grid-template-columns: repeat(12, auto);
+    margin: 0 auto;
+    max-width: 1340px;
+  }
+}
+
+.menu__container {
+  margin: 50px 0 0 0;
+}
+
+@media screen and (min-width: 900px) {
+  .menu__container {
+    align-self: start;
+  }
+
+  .menu__container--left {
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
+  
+  .menu__container--right {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    justify-self: flex-end;
+  }
+}
+
+.menu__text {
+  font-family: 'Moderat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 900px) {
+  .menu__text {
+    /* margin: 0 0 1.25rem 0; */
+  }
+}
+
+.menu__text__link {
+  font-family: 'Moderat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-weight: 400;
+}
+
+.menu__text--first {
+  margin-bottom: 0.25rem;
+}
+
+@media screen and (min-width: 900px) {
+  .menu__text--first {
+    /* margin-bottom: 0.5rem; */
+  }
+}

@@ -1,0 +1,19 @@
+.cta {
+  margin: 6.25rem 0;
+}
+
+@media screen and (min-width: 900px) {
+  .cta {
+    display: grid;
+    grid-column-gap: 0.625rem;
+    grid-template-columns: repeat(12, 7.3%);
+    margin: 12.5rem 0;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .cta__container {
+    grid-column-start: 2;
+    grid-column-end: 12;
+  }
+}
