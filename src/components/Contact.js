@@ -13,9 +13,6 @@ export default class Contact extends Component {
         </header>
         <address>
           Sarah Broßeder<br />
-          Mareschstraße 1<br />
-          12055 Berlin<br />
-          Deutschland<br />
           0160 7526002<br />
           hallo@sarah-brosseder.de
         </address>

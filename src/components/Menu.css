@@ -49,12 +49,6 @@
   padding: 0;
 }
 
-@media screen and (min-width: 900px) {
-  .menu__text {
-    /* margin: 0 0 1.25rem 0; */
-  }
-}
-
 .menu__text__link {
   font-family: 'Moderat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -64,10 +58,4 @@
 
 .menu__text--first {
   margin-bottom: 0.25rem;
-}
-
-@media screen and (min-width: 900px) {
-  .menu__text--first {
-    /* margin-bottom: 0.5rem; */
-  }
 }

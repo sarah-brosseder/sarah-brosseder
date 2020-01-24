@@ -15,7 +15,7 @@ export default class Copy extends Component {
   render () {
     return (
       <>
-        <span className="text__sticky">Ansatz</span>
+        <span id="copy-anchor" className="text__sticky">Ansatz</span>
         <div className="copy__title-container">
           <h1 className="copy__headline">Analysieren, recherchieren, planen, fragen – kritisch, aber hilfreich. Zuhören, diskutieren, skizzieren, träumen… Ich suche individuelle Ansätze, um Euch zu unterstützen und gemeinsam etwas zu verändern.</h1>
         </div>

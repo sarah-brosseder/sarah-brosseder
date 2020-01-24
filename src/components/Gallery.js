@@ -17,7 +17,7 @@ export default class Gallery extends Component {
   render() {
     return (
       <>
-        <div className="tiles">
+        <div id="about-anchor" className="tiles">
           <span className="text__sticky">Über mich</span>
           <span className="arrow__sticky arrow__sticky--gallery"></span>
           <div className="tile tile--first">

@@ -15,7 +15,7 @@ export default class Bullets extends Component {
   render() {
     return (
       <>
-        <div className="bullets__container">
+        <div id="bullets-anchor" className="bullets__container">
           <span className="text__sticky">Leistungsspektrum</span>
           <div className="bullets__title-container">
             <h1 className="bullets__headline">

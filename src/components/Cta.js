@@ -4,7 +4,7 @@ import './Cta.css'
 function Cta() {
   return (
     <>
-      <span className="text__sticky">Beratung und kreative Strategie</span>
+      <span id="cta-anchor" className="text__sticky">Beratung und kreative Strategie</span>
       <div className="cta__container">
         <h1>Worüber wollen wir uns unterhalten?
           <span className="is-hidden-on-mobile not-wrappable"> hallo@sarah-brosseder.de </span>
