@@ -1,11 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Content Changes
-
-1. Open file `content/content.js` and change content.
-2. Run `yarn deploy`.
-3. Commit your changes to master branch.
-
 ## Available Scripts
 
 In the project directory, you can run:
