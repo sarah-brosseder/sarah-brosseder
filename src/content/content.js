@@ -51,5 +51,5 @@ export const NetworkContent = {
 
 export const CtaContent = {
   tagline: 'Beratung und kreative Strategie',
-  headline: 'Worüber wollen wir uns unterhalten?',  
+  headline: 'Worüber wollen wir uns unterhalten?',
 }

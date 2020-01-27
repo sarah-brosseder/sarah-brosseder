@@ -14,8 +14,8 @@ export default class Imprint extends Component {
         <div id="imprint-title" className="imprint__container">
           <h1 className="imprint__headline">Impressum</h1>
           <h2>Kontakt</h2>
-          <p><a href="mailto:hallo@sarah-broßeder.de"><span className="is-hidden-on-desktop text__underlined text__underlined--fine"> hallo@sarah-broßeder.de</span></a>
-            <span className="is-hidden-on-mobile"> hallo@sarah-broßeder.de</span>
+          <p><a href="mailto:hallo@sarah-brosseder.de"><span className="is-hidden-on-desktop text__underlined text__underlined--fine"> hallo@sarah-brosseder.de</span></a>
+            <span className="is-hidden-on-mobile"> hallo@sarah-brosseder.de</span>
             <br />
             Telefon:
             <a href="tel:+00491607526002"><span className="is-hidden-on-desktop text__underlined text__underlined--fine"> 0160 7526002</span></a>
